@@ -2,7 +2,7 @@
     "name": "kb",
     "metadata": {
         "description": "Knowledge Base Marketplace",
-        "version": "0.1.0"
+        "version": "0.2.0"
     },
     "owner": {
         "name": "Lanbao Shen",
@@ -14,6 +14,12 @@
             "description": "Bundled Knowledge Base Plugin",
             "version": "0.1.0",
             "source": "./plugins/bundled-kb"
+        },
+        {
+            "name": "scenario-kb",
+            "description": "Repository-owned recipe knowledge with a plugin-defined structure and lifecycle",
+            "version": "0.1.0",
+            "source": "./plugins/scenario-kb"
         }
     ]
 }
