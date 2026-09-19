@@ -2,7 +2,7 @@
     "name": "kb",
     "metadata": {
         "description": "Knowledge Base Marketplace",
-        "version": "0.2.0"
+        "version": "0.3.0"
     },
     "owner": {
         "name": "Lanbao Shen",
@@ -20,6 +20,12 @@
             "description": "Repository-owned recipe knowledge with a plugin-defined structure and lifecycle",
             "version": "0.1.0",
             "source": "./plugins/scenario-kb"
+        },
+        {
+            "name": "generated-kb",
+            "description": "Generate a self-contained repository knowledge base for one recurring task",
+            "version": "0.1.0",
+            "source": "./plugins/generated-kb"
         }
     ]
 }
