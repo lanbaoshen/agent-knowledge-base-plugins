@@ -1,5 +1,5 @@
 {
-    "name": "knowledge-base",
+    "name": "kb",
     "metadata": {
         "description": "Knowledge Base Marketplace",
         "version": "0.1.0"
@@ -9,6 +9,11 @@
         "email": "lanbaoshen@icloud.com"
     },
     "plugins": [
-
+        {
+            "name": "bundled-kb",
+            "description": "Bundled Knowledge Base Plugin",
+            "version": "0.1.0",
+            "source": "./plugins/bundled-kb"
+        }
     ]
 }
