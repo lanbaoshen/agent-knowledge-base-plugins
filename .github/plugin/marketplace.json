@@ -1,0 +1,14 @@
+{
+    "name": "knowledge-base",
+    "metadata": {
+        "description": "Knowledge Base Marketplace",
+        "version": "0.1.0"
+    },
+    "owner": {
+        "name": "Lanbao Shen",
+        "email": "lanbaoshen@icloud.com"
+    },
+    "plugins": [
+
+    ]
+}
